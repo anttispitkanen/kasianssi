@@ -1,0 +1,20 @@
+{
+  "name": "kasianssi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch",
+    "start": "node build/index.js",
+    "dev": "nodemon build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.18.10",
+    "typescript": "^3.3.3333"
+  }
+}
